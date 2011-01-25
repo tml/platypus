@@ -41,7 +41,7 @@ class TestTable(wx.grid.PyGridTableBase):
         (self.rowCount, self.colCount) = (rowIdx+1, colIdx+1)
         wx.grid.PyGridTableBase.__init__(self)
         self.odd=wx.grid.GridCellAttr()
-        self.odd.SetBackgroundColour("sea green")
+        self.odd.SetBackgroundColour("sea green") # XXX FIXME XXX fix this, it's a horrible color
         self.odd.SetFont(wx.Font(10, wx.SWISS, wx.NORMAL, wx.BOLD))
         self.odd.SetOverflow(False)
         self.even=wx.grid.GridCellAttr()
