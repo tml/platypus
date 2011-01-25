@@ -1,0 +1,5 @@
+Having been terribly dissatisfied with the state of development for SQLite IDEs, I decided it was a perfect task to refresh my wxPython skills.
+
+Started with a single file, start.py, which allows you to define a single SQLite database (replace @__PATH__@) and a single query (replace @__QUERY__@) and get a bare grid drawn to screen. There is a "Pivotal Tracker project":https://www.pivotaltracker.com/projects/215285 that tracks the (closing in on 200 items) that need to be done to make this a more usable tool, if you decide to work on this let me know and I'll invite you to the project.
+
+
